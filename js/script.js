@@ -10,7 +10,7 @@ $(document).ready(function(){
 		else if (user_input < 1){user_input = 1;}
 		else if (user_input > 64){user_input = 64;}
 	
-		var size = (512 / user_input);
+		var size = (500 / user_input);
 	
 		resetGrid();
 
