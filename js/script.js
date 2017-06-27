@@ -3,7 +3,7 @@ var grid = 16;
 $(document).ready(function(){
 	
 	buildGrid();
-	$('#reset_btn').click(function() {
+	$('#reset_btn').onclick(function() {
 		$('.etch').css('background-color', '#FFF');
 		var user_input = prompt("Enter a number between 1 and 64", "");
 		if(isNaN(user_input)){alert("That's not a number!");}
