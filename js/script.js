@@ -36,6 +36,7 @@ function buildGrid(){
 }
 
 function resetGrid(){
+	$('.etch').css('background-color', '#FFF');
 	$('.etch').remove();
 	buildGrid();
 }
